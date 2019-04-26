@@ -1,7 +1,3 @@
-<div>
-  <img src="./docs/resources/logo.png" width="475px" />
-</div>
-
 # eslint-config-tuil
 
 An ESLint shareable config for TypeScript that has TypeScript with Standard, Jest and React specific rules.
