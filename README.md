@@ -16,7 +16,7 @@ Here is an example `.eslintrc.json`:
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
       "project": "./tsconfig.json"
-  },
+  }
 }
 ```
 
