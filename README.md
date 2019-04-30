@@ -1,4 +1,4 @@
-# eslint-config-tuil
+# :snowflake: ESLint Config Tuil - WIP
 
 An ESLint shareable config for TypeScript that has TypeScript with Standard, Jest and React specific rules.
 
