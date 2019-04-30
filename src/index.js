@@ -7,7 +7,9 @@ module.exports = {
       // Enable linting for react and jsx/tsx.
       'plugin:react/recommended',
       // Let's go en override our linting rules with the default standard config.
-      'standard-with-typescript'
+      'standard-with-typescript',
+      // Enable the recommend eslint rules.
+      'eslint:recommended'
     ],
     plugins: [
       'react-hooks'
