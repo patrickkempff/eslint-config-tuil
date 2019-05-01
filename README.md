@@ -12,7 +12,7 @@ Here is an example `.eslintrc.json`:
 
 ```json
 {
-  "extends": ["tuil/recommend"],
+  "extends": ["tuil/recommended"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
       "project": "./tsconfig.json"
