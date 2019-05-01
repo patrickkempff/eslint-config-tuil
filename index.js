@@ -1,1 +1,1 @@
-module.exports = require('./recommend')
+module.exports = require('./recommended')
