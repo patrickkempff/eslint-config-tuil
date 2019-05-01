@@ -1,7 +1,7 @@
 /**
  * Typescript Plugin
  * https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin
- * 
+ *
  * These rules are made available via `@typescript-eslint/eslint-plugin`
  */
 
@@ -10,7 +10,7 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     parserOptions: {
       sourceType: 'module'
-    },     
+    },
     rules: {
         // @typescript-eslint/recommended rules:
         '@typescript-eslint/adjacent-overload-signatures': 'error',
@@ -62,7 +62,7 @@ module.exports = {
         '@typescript-eslint/no-this-alias': ['error', { allowDestructuring: true }],
         '@typescript-eslint/no-unnecessary-type-assertion': 'error',
         '@typescript-eslint/no-useless-constructor': 'error',
-        '@typescript-eslint/promise-function-async': 'error',
+        // '@typescript-eslint/promise-function-async': 'error',
         '@typescript-eslint/restrict-plus-operands': 'error',
         '@typescript-eslint/require-array-sort-compare': 'error',
         '@typescript-eslint/array-type': ['error', 'array-simple'],
@@ -84,6 +84,6 @@ module.exports = {
             'ImportDeclaration': 1,
             'flatTernaryExpressions': false,
             'ignoreComments': false
-        }],            
-    }   
+        }],
+    }
 }
