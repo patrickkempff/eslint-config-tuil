@@ -1,6 +1,6 @@
 # :snowflake: ESLint Config Tuil - WIP
 
-An ESLint shareable config for TypeScript that has TypeScript with Standard, Jest and React specific rules.
+An ESLint shareable config for TypeScript that has TypeScript with Standard, Jest and React best practises.
 
 ## Usage
 
@@ -12,7 +12,7 @@ Here is an example `.eslintrc.json`:
 
 ```json
 {
-  "extends": ["tuil"],
+  "extends": ["tuil/recommend"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
       "project": "./tsconfig.json"
