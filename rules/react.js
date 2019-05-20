@@ -38,6 +38,8 @@ module.exports = {
     'react/require-render-return': 'error',
 
     // custom overrides:
+    'jsx-quotes': ['error', 'prefer-single'], // ESLint own rules
+
     'react/no-did-mount-set-state': 'error',
     'react/no-did-update-set-state': 'error',
     'react/no-will-update-set-state': 'error',
@@ -55,6 +57,7 @@ module.exports = {
     'react/jsx-no-duplicate-props': 'error',
     'react/jsx-closing-tag-location': 'error',
     'react/jsx-closing-bracket-location': 'error',
-    'react/jsx-no-bind': ['error', { allowArrowFunctions: true }]
+    'react/jsx-no-bind': ['error', { allowArrowFunctions: true }],
+    'react/jsx-equals-spacing': ['error', 'never']
   }
 }
