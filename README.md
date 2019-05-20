@@ -1,6 +1,6 @@
-# :snowflake: ESLint Config Tuil - WIP
+# :fire: ESLint TypeScript Config Tuil
 
-An ESLint shareable config for TypeScript that has TypeScript with Standard, Jest and React best practises.
+An ESLint shareable config for TypeScript that has TypeScript with Standard, Jest and React best practises. Used in [react-native-template-tuil](https://www.npmjs.com/package/react-native-template-tuil).
 
 ## Usage
 
@@ -16,7 +16,12 @@ Here is an example `.eslintrc.json`:
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
       "project": "./tsconfig.json"
-  }
+  },
+  "settings": {
+    "react": {
+        "version": "detect"
+    }
+  },
 }
 ```
 
