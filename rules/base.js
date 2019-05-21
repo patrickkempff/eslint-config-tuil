@@ -71,7 +71,7 @@ module.exports = {
         'no-fallthrough': 'error',
         'no-floating-decimal': 'error',
         'no-implied-eval': 'error',
-        'no-iteratorx': 'error',
+        'no-iterator': 'error',
         'no-native-reassign': 'error',
         'no-new': 'error',
         'no-new-func': 'error',
@@ -102,7 +102,7 @@ module.exports = {
 
         'keyword-spacing': 'error',
         'eol-last': 'error',
-        'pace-unary-ops': 'error',
+        'space-unary-ops': 'error',
         'no-mixed-spaces-and-tabs': 'error',
         'no-array-constructor': 'error'
   }
