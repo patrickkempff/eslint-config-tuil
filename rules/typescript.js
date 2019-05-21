@@ -56,7 +56,7 @@ module.exports = {
         '@typescript-eslint/indent': 'off', // override from recommend, -> concern of editorconfig
         '@typescript-eslint/explicit-function-return-type': 'off', // override from recommend
         '@typescript-eslint/explicit-member-accessibility': 'off', // override from recommend
-        '@typescript-eslint/no-unused-vars': 'error', // override from recommend
+        '@typescript-eslint/no-unused-vars': ['error',  {argsIgnorePattern: '^_'}], // override from recommend
         '@typescript-eslint/no-extraneous-class': 'error',
         '@typescript-eslint/no-for-in-array': 'error',
         '@typescript-eslint/no-this-alias': ['error', { allowDestructuring: true }],
