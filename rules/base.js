@@ -60,7 +60,7 @@ module.exports = {
         'require-atomic-updates': 'error',
         'require-yield': 'error',
         'use-isnan': 'error',
-        
+
         // custom overrides
         'valid-typeof': 'error',
         'no-alert': 'error',
@@ -92,13 +92,6 @@ module.exports = {
         'no-path-concat': 'error',
         'no-process-exit': 'error',
         'no-restricted-modules': 'error',
-
-        // ESLint Comments Plugin
-        // The following rules are made available via `eslint-plugin-eslint-comments`
-        'eslint-comments/no-aggregating-enable': 1, // disallows eslint-enable comments for multiple eslint-disable comments
-        'eslint-comments/no-unlimited-disable': 1, // disallows eslint-disable comments without rule names
-        'eslint-comments/no-unused-disable': 1, // disallow disables that don't cover any errors
-        'eslint-comments/no-unused-enable': 1, // // disallow enables that don't enable anything or enable rules that weren't disabled
 
         'keyword-spacing': 'error',
         'eol-last': 'error',

@@ -1,7 +1,8 @@
 // Our recommend rule set.
 module.exports = {
   extends: [
-    './rules/base',    
+    './rules/base',
+    './rules/eslint',
     './rules/jest',
     './rules/react',
     './rules/react-hooks',
