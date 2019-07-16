@@ -1,6 +1,6 @@
 # :fire: ESLint TypeScript Config Tuil
 
-An ESLint shareable config for TypeScript that has TypeScript with Standard, Jest and React best practises. Used in [react-native-template-tuil](https://www.npmjs.com/package/react-native-template-tuil).
+An ESLint shareable config for TypeScript that has TypeScript with Prettier, Standard, Jest and React best practises. Used in [react-native-template-tuil](https://www.npmjs.com/package/react-native-template-tuil).
 
 ## Usage
 
