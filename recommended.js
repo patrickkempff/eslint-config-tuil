@@ -7,10 +7,8 @@ module.exports = {
     './rules/react',
     './rules/react-hooks',
     './rules/standard',
-    './rules/typescript',
-    'prettier',
-    'prettier/@typescript-eslint'
-  ].map(require.resolve),
+    './rules/typescript'
+  ].map(require.resolve).concat(['prettier', 'prettier/@typescript-eslint']),
   globals: {
     '__DEV__': true
   },
