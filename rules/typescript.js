@@ -25,7 +25,6 @@ module.exports = {
         '@typescript-eslint/indent': 'error',
         '@typescript-eslint/interface-name-prefix': 'error',
         '@typescript-eslint/member-delimiter-style': 'error',
-        '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
         'no-array-constructor': 'off',
         '@typescript-eslint/no-array-constructor': 'error',
         '@typescript-eslint/no-empty-interface': 'error',
@@ -34,14 +33,11 @@ module.exports = {
         '@typescript-eslint/no-misused-new': 'error',
         '@typescript-eslint/no-namespace': 'error',
         '@typescript-eslint/no-non-null-assertion': 'error',
-        '@typescript-eslint/no-object-literal-type-assertion': 'error',
         '@typescript-eslint/no-parameter-properties': 'error',
-        '@typescript-eslint/no-triple-slash-reference': 'error',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': 'warn',
         '@typescript-eslint/no-use-before-define': 'error',
         '@typescript-eslint/no-var-requires': 'error',
-        '@typescript-eslint/prefer-interface': 'error',
         '@typescript-eslint/prefer-namespace-keyword': 'error',
         '@typescript-eslint/type-annotation-spacing': 'error',
 
@@ -65,7 +61,7 @@ module.exports = {
         // '@typescript-eslint/promise-function-async': 'error',
         '@typescript-eslint/restrict-plus-operands': 'error',
         '@typescript-eslint/require-array-sort-compare': 'error',
-        '@typescript-eslint/array-type': ['error', 'array-simple'],
+        '@typescript-eslint/array-type': 'error' | 'array-simple',
         '@typescript-eslint/member-delimiter-style': ['error', {
                 multiline: { delimiter: 'none' },
                 singleline: { delimiter: 'semi', requireLast: false }
